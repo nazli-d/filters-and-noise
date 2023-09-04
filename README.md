@@ -1,1 +1,3 @@
-# Görüntü İşleme Filtreleri (Mean, Median, Gaussian Filter) ve Gürültü Ekleme Uygulaması (Salt and Pepper Noise)
+# Görüntü İşleme Filtreleri ve Gürültü Ekleme Uygulaması 
+
+## Mean, Median, Gaussian Filter and Salt and Pepper Noise
