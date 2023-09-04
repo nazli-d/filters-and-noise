@@ -27,7 +27,7 @@ for i in range(1, img.shape[0] - 1):
             2*img[i,j-1] + 4*img[i,j] + 2*img[i,j+1] + img[i+1,j-1] + 
             2*img[i+1,j] + img[i+1,j+1] ) / 16
 
-noise_img = img.copy()                                                   # img'ye eşitlemek yerine img'nin kopyasına eşitliyoruz. 
+noise_img = img.copy()                                                  
 noise_miktari  = 0.1                                                     # %10 luk gürültü
 tuz_miktari   = int( noise_miktari * img.size * 0.5 )
 biber_miktari = int( noise_miktari * img.size * 0.5 )
@@ -42,7 +42,7 @@ for i in range( biber_miktari ):
     noise_img[x, y] = 0
 
 # Sonuçları ayrı pencerelerde açmak için imshow kullanıldı.
-cv2.imshow('Orijinal goruntu', img.astype    ('uint8'))                  # uint8 veri tipine convert edildi. 
+cv2.imshow('Orijinal goruntu', img.astype    ('uint8'))                  
 cv2.imshow('Mean filter'    , mean.astype    ('uint8'))
 cv2.imshow('Median filter'  , median.astype  ('uint8'))
 cv2.imshow('Gaussian filter', gaussian.astype('uint8'))
