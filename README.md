@@ -17,13 +17,28 @@ Gereksinimleri yüklemek için aşağıdaki komutları kullanabilirsiniz:
 pip install opencv-python
 pip install numpy
 ```
+------------------
+
+##  SONUÇLAR
+
+Orijinal Görüntü             |  Mean Filter Uygulanmış Görüntü
+:-------------------------:|:-------------------------:
+![](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/orijinal-goruntu.jpg))  |  ![Mean Filtered](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/mean-filter.jpg)
 
 
+Orijinal Görüntü             |  Median Filter Uygulanmış Görüntü
+:-------------------------:|:-------------------------:
+![](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/orijinal-goruntu.jpg))  |  ![Median Filtered](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/median-filter.jpg)
 
 
+Orijinal Görüntü             |  Gaussian Filter Uygulanmış Görüntü
+:-------------------------:|:-------------------------:
+![](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/orijinal-goruntu.jpg))  |  ![Gaussian Filtered](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/gaussian-filter.jpg)
 
 
-
+Orijinal Görüntü             |  Salt and Pepper Noise Uygulanmış Görüntü
+:-------------------------:|:-------------------------:
+![](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/orijinal-goruntu.jpg))  |  ![Salt and Pepper Noise](https://github.com/nazli-d/filters-and-noise/blob/main/outputs/tuz-biber-gurultusu.jpg)
 
 
 
